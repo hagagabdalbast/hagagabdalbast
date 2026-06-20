@@ -4,6 +4,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Riyadh,%20Saudi%20Arabia-1f6feb?style=flat&logo=googlemaps&logoColor=white" alt="Location" />
   <img src="https://img.shields.io/badge/Experience-4%2B%20years-2ea44f?style=flat" alt="Experience" />
+  <img src="https://komarev.com/ghpvc/?username=hagagabdalbast&style=flat&color=blue" alt="Profile views" />
 </p>
 
 ---
