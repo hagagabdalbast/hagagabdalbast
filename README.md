@@ -32,6 +32,19 @@ with production depth in **Laravel** and **Flutter**.
 
 ---
 
+### Open Source
+
+**[multitenant-clean-architecture](https://github.com/hagagabdalbast/multitenant-clean-architecture)** — a
+multi-tenant SaaS starter on ASP.NET Core 10, distilled from the patterns behind the platforms below.
+
+Tenant isolation is enforced in one place rather than by convention: EF Core global query filters
+attached by reflection to every tenant-scoped entity, plus tenant stamping and a cross-tenant write
+guard in `SaveChanges`. A handler never writes a tenant predicate, so it can never forget one.
+Also includes a bounded `Channel<T>` background email queue with backpressure, SignalR notifications
+isolated by per-tenant groups, and a derived RBAC permission matrix. 38 tests, warnings as errors.
+
+---
+
 ### Featured Work
 
 Most of what I build is client and government software, so the source lives in private
