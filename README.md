@@ -9,7 +9,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Riyadh,%20Saudi%20Arabia-1f6feb?style=flat&logo=googlemaps&logoColor=white" alt="Location" />
-  <img src="https://img.shields.io/badge/Experience-5%2B%20years-2ea44f?style=flat" alt="Experience" />
+  <img src="https://img.shields.io/badge/Experience-4%2B%20years-2ea44f?style=flat" alt="Experience" />
   <img src="https://img.shields.io/badge/Open%20to-Backend%20%26%20Full%20Stack%20roles-8957e5?style=flat" alt="Open to work" />
 </p>
 
@@ -17,12 +17,12 @@
 
 ### About
 
-Full Stack Software Engineer with **5+ years** architecting and shipping enterprise systems across
+Full Stack Software Engineer with **4+ years** architecting and shipping enterprise systems across
 government, EdTech, PropTech, FinTech and B2B SaaS — mostly on **ASP.NET Core** and **SQL Server**,
 with production depth in **Laravel** and **Flutter**.
 
 - 🏗️ I design for handover: **Clean Architecture, DDD and SOLID**, because the systems I build get extended for years.
-- 🏢 Currently **Software Engineer @ Afaq Tech**, Riyadh — backend architect across seven enterprise products.
+- 🏢 Currently **Software Engineer @ Afaq Tech**, Riyadh — backend architect on .NET and full-stack owner on Laravel and Flutter across eight+ enterprise products.
 - 👥 I lead development teams and code review, and work directly with government and enterprise clients from requirements through delivery.
 - 🇸🇦 I build **Arabic-first, RTL-correct** products — designed in from the first commit, not retrofitted.
 - 📬 **hagagabdalbast@gmail.com**
@@ -53,16 +53,17 @@ screenshots — on my portfolio.
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [**Afaq FMS**](https://hagag-mohamed.vercel.app/en/projects/afaq-fms) | Multi-tenant facilities-management ERP — 20+ modules, per-tenant isolation, SignalR, background job pipeline | ASP.NET Core · SQL Server · SignalR |
-| [**Ensraf**](https://hagag-mohamed.vercel.app/en/projects/ensraf) | School attendance, transport & cafeteria network — 47 domain entities across a Laravel backend, a Flutter parent app with live bus tracking, and in-school display screens | Laravel · Flutter |
-| [**EduPlatform**](https://hagag-mohamed.vercel.app/en/projects/eduplatform) | LMS with live-video classrooms over WebRTC | ASP.NET Core · React · LiveKit · Docker |
-| [**Afaq AMS**](https://hagag-mohamed.vercel.app/en/projects/afaq-ams) | Asset maintenance system — EAV attribute model, QR asset tagging, preventive maintenance plans | ASP.NET Core · EF Core · SQL Server |
-| [**Afaq Legal**](https://hagag-mohamed.vercel.app/en/projects/afaq-legal) | Legal affairs system — lawsuits, court sessions, judgments and contracts with approval chains and full audit trail across 15+ roles | ASP.NET Core · SQL Server |
-| [**MediaPlus**](https://hagag-mohamed.vercel.app/en/projects/mediaplus) | Digital-signage SaaS across web, mobile and TV players | ASP.NET Core · Flutter · Kotlin |
-| [**Ministry Meeting Rooms**](https://hagag-mohamed.vercel.app/en/projects/meeting-rooms) | Government meeting-room booking with OTP verification and QR check-in | Laravel |
-| [**Aqari**](https://hagag-mohamed.vercel.app/en/projects/aqari) | Property marketplace with map search and listing management | ASP.NET Core · SQL Server |
-| [**FatoraScan**](https://hagag-mohamed.vercel.app/en/projects/fatorascan) | ZATCA-compliant e-invoicing — validates QR payloads against the TLV specification, bilingual AR/EN OCR on scanned invoices | ASP.NET Core · OCR |
-| [**AlMuhaisni**](https://hagag-mohamed.vercel.app/en/projects/almuhaisni) | Property management platform — search response time cut 30% via SQL Server indexing and table partitioning | .NET Core · Dapper · SQL Server |
+| [**Afaq FMS**](https://hagag-mohamed.vercel.app/en/projects/afaq-fms) | 🟢 Live · Multi-tenant facilities-maintenance ERP — 20+ modules, consultant → contractor → ministry ticket workflow, SignalR. 697+ tickets closed across 99 departments | ASP.NET Core 8 · SQL Server · SignalR · Hangfire · Flutter |
+| [**Ministry Meeting Rooms**](https://hagag-mohamed.vercel.app/en/projects/meeting-rooms) | 🟢 Live · Hall booking for a Saudi ministry — week grid, per-hall approvals, Outlook invites, Exchange sync, one-time-code sign-in, LDAP lookup | ASP.NET Core 8 · Clean Architecture + CQRS · MediatR · xUnit |
+| [**Afaq Legal**](https://hagag-mohamed.vercel.app/en/projects/afaq-legal) | 🟢 Live · Law-office management — cases, session roll, appeal deadlines, judgments, contracts and fee agreements with role-based workflows | ASP.NET Core 10 · EF Core · SQL Server · Flutter |
+| [**Ensraf**](https://hagag-mohamed.vercel.app/en/projects/ensraf) | 🟢 Live in 7 schools · School dismissal, attendance & transport — a Filament admin and three Flutter apps (guardians, drivers, classrooms) with live bus tracking. 47 domain entities | Laravel 12 · Filament · Flutter · FCM |
+| [**Mutaallim (EduPlatform)**](https://hagag-mohamed.vercel.app/en/projects/eduplatform) | 🟢 Live · Learning platform with an AI tutor that answers only from the student's book, read-aloud, translation and LiveKit live classes — AI runs on-server | .NET 8 · React · LiveKit · Ollama · Docker |
+| [**Afaq AMS**](https://hagag-mohamed.vercel.app/en/projects/afaq-ams) | 🟢 Live · Preventive maintenance — EAV property model, QR scan-to-report stickers, maintenance plans with due/overdue tracking | ASP.NET Core 9 · EF Core 9 · SQL Server |
+| [**MediaPlus**](https://hagag-mohamed.vercel.app/en/projects/mediaplus) | 🟢 Live · Digital-signage SaaS — subscription billing, a Flutter display client and a Kotlin manager app, remote power control and OTA updates | ASP.NET Core · Flutter · Kotlin · Jetpack Compose |
+| [**Aqari**](https://hagag-mohamed.vercel.app/en/projects/aqari) | 🟢 Live · Real-estate marketplace (web + mobile) — map search with clustering, agent marketplace, real-time chat, mortgage and investment tools | Laravel 12 · MySQL · Pusher · Flutter |
+| [**ErpGold**](https://hagag-mohamed.vercel.app/en/projects/erpgold) | 🛠️ In development · Gold & jewelry ERP — every piece tracked by weight, karat and pure weight; a Windows agent drives label printers and scales | ASP.NET Core · SQL Server · Next.js 16 |
+| [**FatoraScan**](https://hagag-mohamed.vercel.app/en/projects/fatorascan) | ZATCA-compliant e-invoicing — validates QR payloads against the TLV specification, bilingual AR/EN OCR on scanned invoices | ASP.NET Core · PostgreSQL · React |
+| [**AlMuhaisni**](https://hagag-mohamed.vercel.app/en/projects/almuhaisni) | 🟢 Live · Property management platform — search response time cut 30% via SQL Server indexing and table partitioning | .NET Core · Dapper · SQL Server |
 
 <p align="center">
   <a href="https://hagag-mohamed.vercel.app/en#projects"><b>→ All 17 projects, with full case studies</b></a>
@@ -80,6 +81,7 @@ screenshots — on my portfolio.
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 
 **Backend**
@@ -90,6 +92,8 @@ screenshots — on my portfolio.
 ![Dapper](https://img.shields.io/badge/Dapper-C71A36?style=flat)
 ![Laravel](https://img.shields.io/badge/Laravel%2012-FF2D20?style=flat&logo=laravel&logoColor=white)
 ![Filament](https://img.shields.io/badge/Filament-FDAE4B?style=flat&logo=laravel&logoColor=black)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat&logo=odoo&logoColor=white)
 
 **Frontend & Mobile**
 
@@ -107,7 +111,6 @@ screenshots — on my portfolio.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
 **Architecture & Real-time**
 
